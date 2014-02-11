@@ -3,7 +3,7 @@ box-shadow:0 0 8px #ddd;
 -webkit-box-shadow:0 0 8px #ddd;
 -moz-box-shadow:0 0 8px #ddd;
 }
-.imgwall,.button{
+html,.imgwall,.button,a{
 transition:.3s ease-in-out;
 -o-transition:.3s ease-in-out;
 -moz-transition:.3s ease-in-out;
