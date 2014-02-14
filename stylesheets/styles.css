@@ -174,7 +174,8 @@ z-index:-1;
 }
 section {
   width:850px;
-  float:right;
+  float:left;
+  margin-left:320px;
   padding-bottom:50px;
 }
 
@@ -213,7 +214,6 @@ clear:both;
   
   header p{
    color:#ccc;
-    padding-right:320px;
   }
   
   section {
@@ -234,6 +234,7 @@ clear:both;
 aside{
 display:none;
 }
+figure{margin-left:0;}
 }
 
 @media print, screen and (max-width: 720px) {
