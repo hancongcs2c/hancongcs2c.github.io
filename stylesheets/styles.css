@@ -49,8 +49,8 @@ a small {
 .wrapper {
   margin:0 auto;
   min-height:100%;
-  padding:50px;
-  background: url(../images/dotted-bg.png) repeat;
+  padding:40px;
+  background:#f4f4f4;
 z-index: -1;
 }
 
@@ -181,7 +181,7 @@ section {
   width:850px;
   float:left;
   margin-left:320px;
-  padding-bottom:50px;
+  padding-bottom:0 1em 40px 1em;
   background:#fff;
 }
 
