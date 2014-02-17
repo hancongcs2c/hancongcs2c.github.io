@@ -49,6 +49,8 @@ a small {
 .wrapper {
   margin:0 auto;
   padding:50px;
+  background: url(https://raw2.github.com/hancongcs2c/img/master/bg/dotted-bg.png) repeat;
+z-index: -1;
 }
 
 blockquote {
@@ -173,7 +175,6 @@ position: fixed;
 bottom: 0;
 top: 0;
 left: 0;
-z-index:-1;
 }
 section {
   width:850px;
