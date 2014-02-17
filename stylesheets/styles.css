@@ -48,8 +48,9 @@ a small {
 
 .wrapper {
   margin:0 auto;
+  min-height:100%;
   padding:50px;
-  background: url(https://raw2.github.com/hancongcs2c/img/master/bg/dotted-bg.png) repeat;
+  background: url(../images/dotted-bg.png) repeat;
 z-index: -1;
 }
 
@@ -181,6 +182,7 @@ section {
   float:left;
   margin-left:320px;
   padding-bottom:50px;
+  background:#fff;
 }
 
 small {
