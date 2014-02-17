@@ -37,6 +37,9 @@ opacity:1;
 a.button:hover{
 opacity:.8;
 }
+section h2{
+margin:1em 0;
+}
 section.all{
 position:relative;
 top:210px;
