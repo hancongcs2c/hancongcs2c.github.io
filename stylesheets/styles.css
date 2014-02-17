@@ -95,7 +95,10 @@ th {
 img {
   max-width:100%;
 }
-
+figure{
+  margin:0;
+  margin-right:10px;
+}
 header {
   width:270px;
   float:left;
@@ -234,7 +237,6 @@ clear:both;
 aside{
 display:none;
 }
-figure{margin-left:0;}
 }
 
 @media print, screen and (max-width: 720px) {
