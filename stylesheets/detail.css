@@ -37,13 +37,8 @@ opacity:1;
 a.button:hover{
 opacity:.8;
 }
-section h2{
+section h2,section h3{
 margin:1em 0;
-}
-section.all{
-position:relative;
-top:210px;
-padding-top:10px;
 }
 section.all h3{
     padding-bottom:2px;
