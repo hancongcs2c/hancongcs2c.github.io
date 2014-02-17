@@ -50,10 +50,11 @@ a small {
   margin:0 auto;
   min-height:100%;
   padding:40px;
-  background:#f4f4f4;
 z-index: -1;
 }
-
+.wrapper.index{
+background:#fff;
+}
 blockquote {
   border-left:1px solid #e5e5e5;
   margin:0;
@@ -182,7 +183,6 @@ section {
   float:left;
   margin-left:320px;
   padding-bottom:0 1em 40px 1em;
-  background:#fff;
 }
 
 small {
