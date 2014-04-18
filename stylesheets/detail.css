@@ -24,6 +24,11 @@ width:100%;
 .imgwall span,.imgwall a{
 display:block;
 }
+.imgwall span{
+overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;
+}
 a.button{
 background-color:#39c;
 color:#fff;
