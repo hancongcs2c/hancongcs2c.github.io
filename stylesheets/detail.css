@@ -34,7 +34,7 @@ text-overflow: ellipsis;
 a.button{
 background-color:#39c;
 color:#fff;
-width: 100px;
+width: 110px;
 text-align: center;
 border-radius: 10px;
 margin-top:8px;
@@ -44,6 +44,16 @@ opacity:1;
 a.button:hover{
 opacity:.8;
 }
+figure.mobile .button:before{
+    display:inline-block;
+  content:"M";
+  color:#ffa236;
+  font-weight:bold;
+  background:rgba(255,255,255,.6);
+  margin:0 3px;
+  padding:0 4px;
+}
+
 section.all h3{
     padding-bottom:2px;
     border-bottom:3px solid #333;
