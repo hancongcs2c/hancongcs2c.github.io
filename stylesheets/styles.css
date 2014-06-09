@@ -105,6 +105,8 @@ header {
   width:270px;
   float:left;
   position:fixed;
+  top: 40px;
+left: 40px;
 }
 header p{
 color:#fff;
@@ -177,7 +179,6 @@ top: 0;
 left: 0;
 }
 section {
-  float:left;
   margin-left:320px;
   padding-bottom:0 1em 40px 1em;
 }
@@ -201,6 +202,20 @@ footer {
 }
 .clear{
 clear:both;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+ 
+::-webkit-scrollbar-track {
+    border:1px solid lightblue;
+}
+ 
+::-webkit-scrollbar-thumb {
+    background: #333; 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+background: rgba(0,0,0,0.2); 
 }
 @media print, screen and (max-width: 960px) {
   
