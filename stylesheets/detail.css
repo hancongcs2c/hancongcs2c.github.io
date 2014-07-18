@@ -50,6 +50,7 @@ figure.mobile .button:before{
   content:"M";
   color:#ffa236;
   font-weight:bold;
+  line-height:20px;
   background:rgba(255,255,255,.6);
   margin:0 3px;
   padding:0 4px;
