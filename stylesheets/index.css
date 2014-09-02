@@ -1,0 +1,55 @@
+/*index.css*/
+body{
+	margin:0;
+	padding:0;
+	overflow:hidden;
+}
+.wrapper{
+	width:100%;
+	overflow:hidden;
+}
+.logo{
+	position:absolute;
+	left:100px;
+	top:100px;
+}
+.page{
+	width:1440px;
+	height:900px;
+	overflow:hidden;
+}
+.home{
+
+}
+.index-nav{
+	width:55%;
+	min-width:700px;
+	position:absolute;
+}
+.index-nav li{list-style:none;display:inline-block;}
+.index-nav li a{position:absolute;display:inline-block;background-size:contain;background-repeat:no-repeat;color: #fff;text-align:center;line-height: 300px;font-size: 24px;}
+.index-nav li a span{}
+.li-contact a{background-image:url(../pics/bubble_red.png);width:130px;height:130px;left:50%;top:350px;}
+.li-about a{background-image:url(../pics/bubble_green.png);width:250px;height:250px;left:40%;top:100px;}
+.li-works a{background-image:url(../pics/bubble_orange_large.png);width:180px;height:180px;left:75%;top:100px;}
+.li-rest a{background-image:url(../pics/bubble_violet_large.png);width:250px;height:250px;left:70%;top:300px;}
+.li-pics a{background-image:url(../pics/bubble_blue_right.png);width:150px;height:150px;left:98%;top:200px;}
+.li-a a{background-image:url(../pics/bubble_black.png);width:130px;height:130px;left: 30%;top: 10px;}
+.li-b a{background-image:url(../pics/bubble_blue.png);width:150px;height:150px;left:25%;top:260px;}
+.li-c a{background-image:url(../pics/bubble_green_right.png);width:100px;height:100px;left:99%;top:100px;}
+.li-d a{background-image:url(../pics/bubble_orange.png);width:70px;height:70px;left:57%;top:500px;}
+.li-e a{background-image:url(../pics/bubble_red_right.png);width:130px;height:130px;left:96%;top:480px;}
+.li-f a{background-image:url(../pics/bubble_violet.png);width:110px;height:110px;left:66%;top:10px;}
+.transition{
+	transition:all .3s linear 0;
+	-webkit-transition:all .3s linear 0;
+	-moz-transition:all .3s linear 0;
+	-o-transition:all .3s linear 0;
+}
+.scale1{
+	transform:scale(.8);
+	-webkit-transform:scale(.8);
+	-moz-transform:scale(.8);
+	-o-transform:scale(.8);
+}
+#cnzz_stat_icon_1252960829{display:none;}
