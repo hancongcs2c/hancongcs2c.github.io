@@ -21,7 +21,7 @@ a span.no-dis{display:none;}
 	z-index:999;
 }
 #toggle-screen{background:url(../pics/fs.png) no-repeat;background-size: cover;right: 20px;}
-#to-home{background:url(../pics/home.png) no-repeat;background-size: cover;left: 20px;}
+#to-home{background:url(../pics/home.png) no-repeat;background-size: cover;left: 20px;display:none;}
 /********home**********/
 .logo{
 	position:absolute;

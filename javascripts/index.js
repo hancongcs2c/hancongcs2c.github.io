@@ -33,11 +33,12 @@ $(function(){
 		e.preventDefault();
 		$('#home').fadeIn().addClass('animate1');
 		$('#home').siblings('.page').fadeOut(100);
-		$('aside').fadeOut(0);
+		$('aside,#to-home').fadeOut(0);
 	});
 	$('.li-works').click(function(e){
 		$('aside').fadeIn().addClass('animate2');
 		$('#works').fadeIn().addClass('animate1');
+		$('#to-home').fadeIn().addClass('animate2');
 		$('.a-works').parent('li').addClass('current').siblings('li').removeClass('current');
 	});
 });
