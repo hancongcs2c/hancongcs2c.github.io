@@ -4,6 +4,9 @@ box-shadow:0 0 8px #ddd;
 -moz-box-shadow:0 0 8px #ddd;
 opacity:1;
 }
+.imgwall:hover{
+	background:#eee;
+}
 html,.imgwall,.button,a{
 transition:.3s ease-in-out;
 -o-transition:.3s ease-in-out;
@@ -15,6 +18,7 @@ width:220px;
 float:left;
 border:1px solid #ddd;
 padding:10px;
+background:#ccc;
 opacity:.8
 }
 section.all .imgwall{

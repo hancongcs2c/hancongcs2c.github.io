@@ -8,41 +8,107 @@
 
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/index.css">
-
+    <link rel="stylesheet" href="stylesheets/detail.css">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
   </head>
   <body>
   <div class="wrapper">
-	<!--首页-->
-	<section class="page home">
-		<a class="logo"><img src="pics/logo.png"></a>
+        <aside>
+	    <ul class="clearfix">
+		<li><a href="#" class="a-works"><span class="no-dis">作品</span></a></li>
+		<li><a href="#" class="a-rest"><span class="no-dis">休闲</span></a></li>
+		<li><a href="#" class="a-pics"><span class="no-dis">涂鸦</span></a></li>
+		<li><a href="#" class="a-about"><span class="no-dis">关于</span></a></li>
+		<li><a href="#" class="a-contact"><span class="no-dis">联系我</span></a></li>
+	    </ul>
+        </aside>
+	<a id="to-home" href="#" title="去首页"><span class="no-dis">首页</span></a>
+	<a id="toggle-screen" href="#" title="点此toggle全屏模式"><span class="no-dis">全屏</span></a>
+	<!-----home----->
+	<div class="page home" id="home">
+	    <section>
+		<a href="" class="logo"><img src="pics/logo.png"></a>
 		<ul class="index-nav" id="index-nav">
 			<li class="li-a"><a></a></li>
 			<li class="li-e"><a></a></li>
-			<li class="li-about"><a href=""><span>关于</span></a></li>
-			<li class="li-works"><a href=""><span>作品</span></a></li>
-			<li class="li-pics"><a href=""><span>涂鸦</span></a></li>
-			
+			<li class="li-about"><a href=""><span class="no-dis">关于</span></a></li>
+			<li class="li-works"><a href="#works"><span class="no-dis">作品</span></a></li>
+			<li class="li-pics"><a href=""><span class="no-dis">涂鸦</span></a></li>
 			<li class="li-f"><a></a></li>
-			<li class="li-contact"><a href=""><span>联系我</span></a></li>
-
-			<li class="li-rest"><a href=""><span>休闲</span></a></li>
+			<li class="li-contact"><a href=""><span class="no-dis">联系我</span></a></li>
+			<li class="li-rest"><a href=""><span class="no-dis">休闲</span></a></li>
 			<li class="li-b"><a></a></li>
-
-
 			<li class="li-c"><a></a></li>
 			<li class="li-d"><a></a></li>
-
 		</ul>
-	</section>
+	    </section>
+	</div><!----/home--->
+	<!----works--->
+	<div class="page works" id="works">
+		<section class="clearfix">
+			<p class="time">July. 2014</p>
+			<figure class="imgwall mobile">
+			   <a href="lacarte/" target="_blank"><img src="./images/ordering.jpg"><span>lacarte</span></a>
+			   <figcaption><a href="https://github.com/insekkei/lacarte/tree/gh-pages" class="button" target="_blank">View source</a></figcaption>
+			</figure>
+
+			<figure class="imgwall">
+			   <a href="lianliankan" target="_blank"><img src="./images/lianliankan.jpg"><span>lianliankan</span></a>
+			   <figcaption><a href="https://github.com/insekkei/lianliankan/tree/gh-pages" class="button" target="_blank">View source</a></figcaption>
+			</figure>
+			<p class="time">Mar. 2014</p>
+			<figure class="imgwall mobile">
+			   <a href="dianxin/" target="_blank"><img src="./images/dianxin.jpg"><span>dianxin</span></a>
+			   <figcaption><a href="https://github.com/insekkei/dianxin/tree/gh-pages" class="button" target="_blank">View source</a></figcaption>
+			</figure>
+
+			<figure class="imgwall">
+			   <a href="yizhen/qa.html" target="_blank"><img src="./images/yizhen.jpg"><span>yizhen</span></a>
+			   <figcaption><a href="https://github.com/insekkei/yizhen/tree/gh-pages" class="button" target="_blank">View source</a></figcaption>
+			</figure>
+
+			<figure class="imgwall">
+			   <a href="talkyep" target="_blank"><img src="./images/talkyep.jpg"><span>talkyep</span></a>
+			   <figcaption><a href="https://github.com/insekkei/talkyep/tree/gh-pages" class="button" target="_blank">View source</a></figcaption>
+			</figure>
+
+			<figure class="imgwall mobile">
+			   <a href="xinbao" target="_blank"><img src="./images/xinbao.jpg"><span>xinbao</span></a>
+			   <figcaption><a href="https://github.com/insekkei/xinbao/tree/gh-pages" class="button" target="_blank">View source</a></figcaption>
+			</figure>
+			<p class="time">April. 2014</p>
+			<figure class="imgwall">
+			   <a href="bjautoshow2014" target="_blank"><img src="./images/bjautoshow.jpg"><span>bjautoshow2014</span></a>
+			   <figcaption><a href="https://github.com/insekkei/bjautoshow2014/tree/gh-pages" class="button" target="_blank">View source</a></figcaption>
+			</figure>
+
+			<figure class="imgwall mobile">
+			   <a href="convreg" target="_blank"><img src="./images/convreg.jpg"><span>convreg</span></a>
+			   <figcaption><a href="https://github.com/insekkei/convreg/tree/gh-pages" class="button" target="_blank">View source</a></figcaption>
+			</figure>
+
+			<figure class="imgwall">
+			  <a href="hepbook" target="_blank"><img src="./images/hepbook.jpg"><span>hepbook</span></a>
+			  <figcaption><a href="https://github.com/insekkei/hepbook/tree/gh-pages" class="button" target="_blank">View source</a></figcaption>
+			</figure>
+			<p class="time">Mar. 2014</p>
+			<figure class="imgwall">
+			  <a href="mtlcon" target="_blank"><img src="./images/mtlcon.jpg"><span>mtlcon</span></a>
+			  <figcaption><a href="https://github.com/insekkei/mtlcon/tree/gh-pages" class="button" target="_blank">View source</a></figcaption>
+			</figure>
+			<p class="time">Oct. 2013</p>
+			<figure class="imgwall">
+			  <a href="drabbit" target="_blank"><img src="./images/drabbit.jpg"><span>drabbit</span></a>
+			  <figcaption><a href="https://github.com/insekkei/drabbit/tree/gh-pages" class="button" target="_blank">View source</a></figcaption>
+			</figure>
+		</section>
+	</div><!----/works--->
   </div>
 
-
-
-
   <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script src="javascripts/fullscreen.js"></script>
   <script src="javascripts/index.js"></script>
   <script>var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1252960829'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s23.cnzz.com/z_stat.php%3Fid%3D1252960829%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script>
   </body>
