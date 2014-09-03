@@ -5,7 +5,7 @@ box-shadow:0 0 8px #ddd;
 opacity:1;
 }
 .imgwall:hover{
-	background:#eee;
+opacity:1;
 }
 html,.imgwall,.button,a{
 transition:.3s ease-in-out;
@@ -16,9 +16,9 @@ transition:.3s ease-in-out;
 .imgwall{
 width:220px;
 float:left;
-border:1px solid #ddd;
 padding:10px;
-background:#ccc;
+background: #fff url(../pics/imgwall-bg.png) no-repeat;
+background-size: cover;
 opacity:.8
 }
 section.all .imgwall{
