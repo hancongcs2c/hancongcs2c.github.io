@@ -41,8 +41,25 @@ $(function(){
 		$('#to-home').fadeIn().addClass('animate2');
 		$('.a-works').parent('li').addClass('current').siblings('li').removeClass('current');
 	});
+	
+	//pics
+	var totalWidth=0;
+	var picWidth=0;
+	$('.album>div').each(function(e){
+		var $thisDiv = $(this);
+		picWidth = $thisDiv.find('img').width();
+		$thisDiv.css('width',picWidth);
+		totalWidth += picWidth;
+	});
+	$('#pics,#pics section').css('width',totalWidth);
 });
+
 function resetSize(){
 	height = $(window).height();
 	$('.page,.home>section,.wrapper').css('height',height);
+	$('.album>div').each(function(e){
+		var $thisDiv = $(this);
+		picWidth = $thisDiv.find('img').width();
+		$thisDiv.css('width',picWidth);
+	});
 }
