@@ -61,25 +61,6 @@ a span.no-dis{display:none;}
 .works{position:absolute;top:0;left:0;background:#fff url(../pics/plane.png) no-repeat right top;overflow:auto;display:none;}
 .works section{width:790px;position: absolute;margin-left: 50%;margin-top: 106px;left: -260px;overflow: visible;background: url(../pics/ver-bor.png) repeat-y;}
 .works p.time{clear: both;position: relative;left: -140px;font-size: 24px;font-style: italic;background: url(../pics/hor-bor.png) bottom repeat-x;}
-/************pics************/
-.pics{position:absolute;top:0;left:0;background:#fff;overflow-x:scroll;}
-.pics section{height:100%;overflow-x:scroll;}
-.pics::-webkit-scrollbar {
-    height:5px;
-}
-.pics::-webkit-scrollbar-track {
-    border:3px solid #000;
-}
- 
-.pics::-webkit-scrollbar-thumb {
-    background: #333; 
-}
-.pics::-webkit-scrollbar-thumb:window-inactive {
-	background: rgba(0,0,0,0.2); 
-}
-.album{width:auto !important;}
-.album>div{position:relative;float:left;height:100%;}
-.album>div img{height:100%;}
 /************aside*************/
 aside{display:none;}
 aside ul li{float:left;width:74px;height:146px;background:url(../pics/menu.png)  no-repeat;text-align:center;background-size:74px auto;margin:0 3px;position:relative;top:-30px;}
