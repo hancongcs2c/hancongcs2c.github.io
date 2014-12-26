@@ -1,3 +1,6 @@
+*,html,body{
+	font-family:'微软雅黑','microsoft yahei',Sans-serif;
+}
 /*header*/
 header{
 	position:absolute;
