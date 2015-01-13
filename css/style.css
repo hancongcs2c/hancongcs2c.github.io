@@ -88,7 +88,7 @@ header li:nth-child(2n) a{
 }
 .panel:target,.content{
 	margin-left:0;
-	background: url(../images/bg.jpg) no-repeat;
+	background: url(http://sh.yun.ftn.qq.com/ftn_handler/b4a9c9b881dabdc8c5ec425e6a964f1851e7a0c88d00980064c9b321f36d3019/?fname=bg.jpg&cn=0&cv=30111&size=1024*640) no-repeat;
 	background-size: cover;
 }
 article{
