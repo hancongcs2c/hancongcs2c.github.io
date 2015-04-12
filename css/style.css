@@ -1,5 +1,5 @@
 *,html,body{
-	font-family:'微软雅黑','microsoft yahei',Sans-serif;
+	font-family:'Ã¥Â¾Â®Ã¨Â½Â¯Ã©â€ºâ€¦Ã©Â»â€˜','microsoft yahei',Sans-serif;
 }
 /*header*/
 header{
@@ -26,7 +26,7 @@ h1 span{
 	color: burlywood;
 }
 header li{
-	background:rgba(255,255,255,.8);
+	background: #fff;
 	color:#666;
 	padding:0;
 	margin:.5em 0;
@@ -49,6 +49,7 @@ header li a{
 header li:nth-child(2n) a{
 	margin-left:50px;
 }
+a{color:#eee;}
 /*current link*/
 #home:target ~ #header #navigation #link-home,
 #portfolio:target ~ #header #navigation #link-portfolio,
@@ -88,7 +89,7 @@ header li:nth-child(2n) a{
 }
 .panel:target,.content{
 	margin-left:0;
-	background: url(../images/logo.png) no-repeat;
+	background: #DDB78A;
 	background-size: cover;
 }
 article{
@@ -162,10 +163,23 @@ article p.reversed a{
 p.time{
 	display:block;
 	clear:left;
-	background:rgba(255,255,255,.6);
-	color:#333;
+	border-bottom:1px dashed #fff;
+	color:#fff;
 	font-style:italic;
 	font-size:1.5em;
+	padding: 0 28px;
+	position:relative;
+}
+p.time:before{
+	content:"";
+	display:inline-block;
+	width:16px;
+	height:16px;
+	border-radius:50%;
+	background:#fff;
+	position:absolute;
+	left:0;
+	top:23px;
 }
 .imgwall:hover,a.button{
 box-shadow:0 0 8px #ddd;
@@ -190,6 +204,8 @@ padding:10px;
 background: #fff url(../pics/imgwall-bg.png) no-repeat;
 background-size: cover;
 opacity:.9;
+position: relative;
+left: 28px;
 }
 .imgwall img{
 width:100%;
@@ -267,6 +283,7 @@ span.info{
 /***home***/
 .desc p{
 	padding:20px;
+	background:#000;
 	margin:1px;
 	width:350px;
 	height:80px;
@@ -280,19 +297,6 @@ span.info{
 	font-size:1.5em;
 	color:#666;
 }
-.desc p:first-child,.desc p:nth-child(4){
-	background:rgba(0,184,141,.2);
-	color:rgba(0,184,141,1);
-}
-.desc p:nth-child(2),.desc p:nth-child(5){
-	background:rgba(255,210,0,.2);
-	color:rgba(255,210,0,1);
-}
-.desc p:nth-child(3){
-	background:rgba(180,100,0,.2);
-	color:rgba(180,100,0,1);
-}
-
 
 
 
