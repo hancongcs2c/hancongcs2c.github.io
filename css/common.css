@@ -7,9 +7,14 @@ form, fieldset, legend, input, button,
 textarea, p, blockquote, th, td,aside,header,footer,article,section {
     margin: 0;
     padding: 0;
+    box-sizing:border-box;
+}
+a,span,strong{
+    display: inline-block;
 }
 fieldset, img {
     border: 0;
+    box-sizing:border-box;
 }
 /* remember to define focus styles! */
 :focus {
