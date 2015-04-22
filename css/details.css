@@ -163,9 +163,20 @@ div.more.collapse{
 }
 #works .imgwall{
     width:300px;
+    height:155px;
 }
 #works .imgwall img{
     width:300px;
+}
+#works figcaption span{
+    margin-top:10%;
+}
+figcaption a{
+    width:70%;
+    padding:5px;
+    margin:1em auto;
+    border:1px solid #fff;
+    color:#fff;
 }
 p.more{
     color:#eee;
@@ -178,7 +189,7 @@ p.more{
     cursor:pointer;
 }
 /*mobile*/
-#mobile figure{
+figure{
     position:relative;
 }
 #mobile figure img{
@@ -188,7 +199,7 @@ p.more{
 #mobile figure:nth-child(2n){
     top:2em;
 }
-#mobile figcaption{
+figcaption{
     position:absolute;
     bottom:0;
     left:0;
@@ -198,10 +209,10 @@ p.more{
     font-size:1.5em;
     display:none;
 }
-#mobile figure:hover figcaption{
+figure:hover figcaption{
     display:inline-block;
 }
-#mobile figcaption span,#mobile figcaption a{
+figcaption span,#mobile figcaption a{
     color:#fff;
     display:block;
 }
@@ -209,10 +220,7 @@ p.more{
     margin-top:50%;
 }
 #mobile figcaption a{
-    width:70%;
-    padding:5px;
     margin:2em auto;
-    border:1px solid #fff;
 }
 /*doodles*/
 #doodles li{
