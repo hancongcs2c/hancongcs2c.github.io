@@ -6,6 +6,9 @@ body{
     text-align:center;
     padding: 40px;
 }
+#works,#doodles,#about{
+    background:#f7f7f7;
+}
 #index{
     padding:10% 40px;
 }
@@ -27,7 +30,7 @@ body{
     display:inline-block;
 }
 .open-eyes:hover:before{
-    content:"å®˜äººåˆ«é—¹~~";
+    content:"ÃƒÆ’Ã‚Â¥Ãƒâ€šÃ‚Â®Ãƒâ€¹Ã…â€œÃƒÆ’Ã‚Â¤Ãƒâ€šÃ‚ÂºÃƒâ€šÃ‚ÂºÃƒÆ’Ã‚Â¥Ãƒâ€¹Ã¢â‚¬Â Ãƒâ€šÃ‚Â«ÃƒÆ’Ã‚Â©ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬ÂÃƒâ€šÃ‚Â¹~~";
     position:absolute;
     border-radius:50%;
     width:100px;
@@ -145,6 +148,7 @@ a.about:after{
     background-position:-515px -93px;
 }
 
+/*works*/
 .imgwall{
     display:inline-block;
 }
@@ -154,20 +158,104 @@ a.about:after{
 div.more{
     display:none;
 }
+div.more.collapse{
+    display: block;
+}
+#works .imgwall{
+    width:300px;
+}
+#works .imgwall img{
+    width:300px;
+}
+p.more{
+    color:#eee;
+    text-shadow:0 0 1px #000;
+    letter-spacing:6px;
+    margin:1em auto;
+    background:#fff;
+    text-align:center;
+    border-radius:10px;
+    cursor:pointer;
+}
+/*mobile*/
+#mobile figure{
+    position:relative;
+}
+#mobile figure img{
+    width:206px;
+    height:341px;
+}
+#mobile figure:nth-child(2n){
+    top:2em;
+}
+#mobile figcaption{
+    position:absolute;
+    bottom:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background:rgba(0,0,0,.7);
+    font-size:1.5em;
+    display:none;
+}
+#mobile figure:hover figcaption{
+    display:inline-block;
+}
+#mobile figcaption span,#mobile figcaption a{
+    color:#fff;
+    display:block;
+}
+#mobile figcaption span{
+    margin-top:50%;
+}
+#mobile figcaption a{
+    width:70%;
+    padding:5px;
+    margin:2em auto;
+    border:1px solid #fff;
+}
 /*doodles*/
 #doodles li{
     display:inline-block;
     width:206px;
     height:206px;
     margin:40px;
-    background:#eee;
-    border-radius:50%;
+    background:#fff;
 }
 #doodles li a{
-    border-radius:50%;
     display:block;
-    height:206px;
+    height:190px;
+    width:190px;
+    margin:8px;
     background:url(http://imglf1.ph.126.net/kBjWxS-AydXtIQcqKGVYMw==/6630514711350122734.png) no-repeat;
+    background-size:cover;
+}
+#doodles li:nth-child(2) a{
+    background: url(http://imglf2.ph.126.net/fg8RgveMaJP2L3-WA3vf0Q==/6630329993396264090.png) no-repeat;
+    background-size:cover;
+}
+#doodles li:nth-child(3) a{
+    background: url(http://imglf0.ph.126.net/x3wra8bFiryd_kDh8SaaZw==/6630907237000835733.png) no-repeat;
+    background-size:cover;
+}
+#doodles li:nth-child(4) a{
+    background: url(http://imglf0.ph.126.net/aqgj8ltsmw8reUtTgaplBg==/6619377758072956455.png) no-repeat;
+    background-size:cover;
+}
+#doodles li:nth-child(5) a{
+    background: url(http://imglf2.ph.126.net/U32ZosMQu6NYdDHrnqbF7Q==/3363063021841576763.png) no-repeat;
+    background-size:cover;
+}
+#doodles li:nth-child(6) a{
+    background: url(http://imglf1.ph.126.net/PIY6oSO5jbjh9pDJ4PGYwg==/2861193138281823088.jpg) no-repeat;
+    background-size:cover;
+}
+#doodles li:nth-child(7) a{
+    background: url(http://imglf1.ph.126.net/L3l_010HL089FSw1QDZOHA==/2437291823355403837.png) no-repeat;
+    background-size:cover;
+}
+#doodles li:nth-child(8) a{
+    background: url(http://imglf2.ph.126.net/1Qt0sLDlK1PAjL9ZBw0dTg==/2433069698704537760.png) no-repeat;
     background-size:cover;
 }
 /*skills*/
@@ -183,4 +271,25 @@ div.more{
     position:relative;
     top:50px;
     padding-bottom:0;
+}
+/*nav-list*/
+#nav-list{
+    position:fixed;
+    right:0;
+    top:50%;
+    margin-top:-71px;
+}
+#nav-list li{
+    width:14px;
+    height:14px;
+    background:#CDAD8A;
+    margin:12px 20px;
+}
+#nav-list li a{
+    display:block;
+    height:14px;
+}
+#nav-list li.current{
+    background:#fff;
+    border:1px solid #CDAD8A;
 }

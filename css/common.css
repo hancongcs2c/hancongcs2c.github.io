@@ -8,6 +8,8 @@ textarea, p, blockquote, th, td,aside,header,footer,article,section {
     margin: 0;
     padding: 0;
     box-sizing:border-box;
+    transition:all .3s linear;
+    -webkit-transition:all .3s linear;
 }
 a,span,strong{
     display: inline-block;
