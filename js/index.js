@@ -5,11 +5,11 @@ $(function(){
 		var pos = $(href).offset().top;
 
 		
-   		$(this).parent('li')
-      		.addClass("current")
-      		.siblings().removeClass("current");
+   		//$(this).parent('li')
+      	//	.addClass("current")
+      	//	.siblings().removeClass("current");
 
-    	$("html,body").animate({scrollTop: pos}, 1000,function(){
+    	$("html,body").animate({scrollTop: pos}, 100,function(){
 			location.hash = href;
 		});
 		e.preventDefault();
