@@ -9,7 +9,7 @@ $(function(){
       		.addClass("current")
       		.siblings().removeClass("current");
 
-    	$("html,body").animate({scrollTop: pos}, 0,function(){
+    	$("html,body").animate({scrollTop: pos}, 1000,function(){
 			location.hash = href;
 		});
 		e.preventDefault();
