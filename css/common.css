@@ -99,7 +99,7 @@ q:before, q:after {
 }
 .reversed{
     background: #fff;
-    color:#333 !important;
+    color:#CCAD8C !important;
 }
 .transition{
     -webkit-transition: all .8s ease-in-out;
