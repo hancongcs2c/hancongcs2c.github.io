@@ -9,7 +9,7 @@ $(function(){
       		.addClass("current")
       		.siblings().removeClass("current");
 
-    	$("html,body").animate({scrollTop: pos}, 1000,function(){
+    	$("html,body").animate({scrollTop: pos}, 0,function(){
 			location.hash = href;
 		});
 		e.preventDefault();
@@ -32,19 +32,19 @@ $(function(){
     	//deside witch is the current link
     	if(toTop < pro1){
     		$('#nav-list li').eq(0).addClass("current").siblings().removeClass("current");
-    		location.hash = '#index';
+    		//location.hash = '#index';
     	}else if(toTop < pro2){
     		$('#nav-list li').eq(1).addClass("current").siblings().removeClass("current");
-    		location.hash = '#works';
+    		//location.hash = '#works';
     	}else if(toTop < pro3){
     		$('#nav-list li').eq(2).addClass("current").siblings().removeClass("current");
-    		location.hash = '#doodles';
+    		//location.hash = '#doodles';
     	}else if(toTop < pro4){
     		$('#nav-list li').eq(3).addClass("current").siblings().removeClass("current");
-    		location.hash = '#skills';
+    		//location.hash = '#skills';
     	}else{
     		$('#nav-list li').eq(4).addClass("current").siblings().removeClass("current");
-    		location.hash = '#about';
+    		//location.hash = '#about';
     	}
     	
     });

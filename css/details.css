@@ -284,7 +284,7 @@ figcaption a,#mobile figcaption a{
 }
 /*skills*/
 #skills{
-    background:url(../images/icon_char.png) no-repeat 20px 100px;
+    background:url(../images/icon_char.png) no-repeat bottom center;
     background-size:150px auto;
 }
 #skills .skills{
