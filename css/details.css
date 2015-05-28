@@ -6,6 +6,7 @@ body{
     text-align:center;
     padding: 40px;
 }
+
 #works,#doodles,#about{
     background:#f7f7f7;
 }
@@ -30,7 +31,7 @@ body{
     display:inline-block;
 }
 .open-eyes:hover:before{
-    content:"官人别闹～～";
+    content:"å®˜äººåˆ«é—¹ï½žï½ž";
     position:absolute;
     border-radius:50%;
     width:100px;
@@ -51,6 +52,9 @@ body{
 }
 
 /*links*/
+a{
+    color:#333;
+}
 .links a,h2{position:relative;}
 h2{margin-bottom:4em;}
 .links a>span,h2>span{display:none;}
@@ -279,6 +283,10 @@ figcaption a,#mobile figcaption a{
     background-size:cover;
 }
 /*skills*/
+#skills{
+    background:url(../images/icon_char.png) no-repeat 20px 100px;
+    background-size:150px auto;
+}
 #skills .skills{
     display:inline-block;
     text-align:right;
