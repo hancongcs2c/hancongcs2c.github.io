@@ -365,7 +365,7 @@ figcaption a,#mobile figcaption a{
 
 @media all and (max-width:480px){
     .pages{
-        padding:40px 0;
+        padding:40px 10px;
     }
     section{
         padding:40px 20px;
