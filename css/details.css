@@ -328,3 +328,75 @@ figcaption a,#mobile figcaption a{
     background:#fff;
     border:1px solid #CDAD8A;
 }
+
+@media all and (max-width:880px){
+    .links a{
+        margin: 2em 0;
+    }
+    .links a:before,.links a:after{
+         transform:scale(.7);
+    }
+    a.doodles,a.skills{
+        top: 0;
+        left: 0;
+    }
+    a.doodles:before{
+        background-position:-234px 0;
+    }
+    #skills{
+        background:none;
+    }
+    #skills .skills{
+        width:100%;
+        text-align:center;
+        border:0;
+    }
+    #skills .skills li{
+        margin-bottom:.5em;
+    }
+    #skills .skills.ps{
+        top:0;
+        text-align:center;
+    }
+    #mobile figure:nth-child(2n){
+        top:0;
+    }
+}
+
+@media all and (max-width:480px){
+    .pages{
+        padding:40px 0;
+    }
+    section{
+        padding:40px 20px;
+    }
+    #works .imgwall{
+        width:240px;
+        height:155px;
+    }
+    #works .imgwall img{
+        width:240px;
+    }
+    figcaption{
+        display:inline-block;
+        position:relative;
+        height:auto;
+        background:transparent;
+    }
+    #works figcaption span,#mobile figcaption span{
+        margin-top:0;
+    }
+    figcaption a, #mobile figcaption a{
+        color:#888;
+        display:inline-block;
+        font-size:14px;
+    }
+    figcaption a.button,#mobile figcaption a.button{
+        color:#888;
+        padding:3px 10px;
+        width:auto;
+        margin:0 10px;
+        border:0;
+        display: inline-block;
+    }
+}
