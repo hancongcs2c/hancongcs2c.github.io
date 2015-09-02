@@ -17,18 +17,11 @@ body{
     position:relative;
     display:inline-block;
 }
-
-.close-eyes{
-    background:#fff;
-    display:block;
-    position:absolute;
-    top:0;
-    left:25px;
-    padding-top:54px;
+.open-eyes:hover .eye{
     display:none;
 }
-.open-eyes:hover+.close-eyes{
-    display:inline-block;
+.open-eyes:hover .face{
+    fill:#FFC1C1;
 }
 .open-eyes:hover:before{
     content:"官人别闹";
